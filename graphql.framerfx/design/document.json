@@ -1,0 +1,684 @@
+{
+  "root" : {
+    "__class" : "RootNode",
+    "children" : [
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+          {
+            "__class" : "CodeComponentNode",
+            "aspectRatio" : null,
+            "bottom" : 0,
+            "centerAnchorX" : 0.21235521235521235,
+            "centerAnchorY" : 0.50556586270871984,
+            "children" : [
+
+            ],
+            "clip" : true,
+            "codeComponentIdentifier" : ".\/DataStack.tsx_DataStack",
+            "codeComponentProps" : {
+              "alignment" : "center",
+              "children" : [
+                {
+                  "enabled" : true,
+                  "type" : "componentinstance",
+                  "value" : "F55ZQeJti"
+                }
+              ],
+              "direction" : "vertical",
+              "distribute" : "start",
+              "forceState" : "none",
+              "gap" : 25,
+              "overflow" : "hidden",
+              "padding" : 0,
+              "paddingBottom" : 40,
+              "paddingLeft" : 40,
+              "paddingPerSide" : false,
+              "paddingRight" : 40,
+              "paddingTop" : 40,
+              "query" : "{   stack: pokemons(first:3) {     title: name     sub: fleeRate   } }",
+              "radius" : 0,
+              "url" : "https:\/\/graphql-pokemon.now.sh"
+            },
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 533,
+            "heightType" : 0,
+            "id" : "rm1EeEXde",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "left" : 0,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Z1MFf4Msf",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "rotation" : 0,
+            "top" : 6,
+            "visible" : true,
+            "width" : 220,
+            "widthType" : 0
+          }
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "white",
+        "fillEnabled" : true,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 539,
+        "heightType" : 0,
+        "id" : "Z1MFf4Msf",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 526,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "o9_6L0hoI",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 94,
+        "visible" : true,
+        "width" : 518,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0.19913419913419914,
+        "centerAnchorY" : 0.36805555555555558,
+        "children" : [
+          {
+            "__class" : "TextNode",
+            "autoSize" : true,
+            "bottom" : 37,
+            "centerAnchorX" : 0.14010989010989011,
+            "centerAnchorY" : 0.7129032258064516,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "height" : 15,
+            "heightType" : 0,
+            "id" : "E2JEr5bPv",
+            "isTarget" : true,
+            "left" : 18,
+            "locked" : false,
+            "name" : "title",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "SuMqn07Ss",
+            "right" : null,
+            "rotation" : 0,
+            "styledText" : {
+              "__class" : "StyledTextDraft",
+              "blocks" : [
+                {
+                  "data" : {
+                    "emptyStyle" : [
+                      "COLOR:rgb(0, 0, 0)",
+                      "LETTERSPACING:0",
+                      "LINEHEIGHT:1.2",
+                      "SIZE:13",
+                      "FONT:__SF-UI-Text-Bold__"
+                    ]
+                  },
+                  "depth" : 0,
+                  "entityRanges" : [
+
+                  ],
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 2,
+                      "offset" : 0,
+                      "style" : "COLOR:rgb(0, 0, 0)"
+                    },
+                    {
+                      "length" : 2,
+                      "offset" : 0,
+                      "style" : "LETTERSPACING:0"
+                    },
+                    {
+                      "length" : 2,
+                      "offset" : 0,
+                      "style" : "LINEHEIGHT:1.2"
+                    },
+                    {
+                      "length" : 2,
+                      "offset" : 0,
+                      "style" : "SIZE:13"
+                    },
+                    {
+                      "length" : 2,
+                      "offset" : 0,
+                      "style" : "FONT:__SF-UI-Text-Bold__"
+                    }
+                  ],
+                  "key" : "abfid",
+                  "text" : "Hi",
+                  "type" : "unstyled"
+                }
+              ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"abfid-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"abfid-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Bold&quot;, &quot;SFProText-Bold&quot;, &quot;SFUIText-Bold&quot;, &quot;.SFUIText-Bold&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:13px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Hi<\/span><\/span><\/div>",
+                "os" : "10_14",
+                "size" : {
+                  "height" : 15,
+                  "width" : 15
+                },
+                "width" : 0
+              },
+              "entityMap" : {
+
+              }
+            },
+            "top" : null,
+            "visible" : true,
+            "width" : 15,
+            "widthType" : 0
+          },
+          {
+            "__class" : "TextNode",
+            "autoSize" : true,
+            "bottom" : 22,
+            "centerAnchorX" : 0.31593406593406592,
+            "centerAnchorY" : 0.80967741935483872,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "exportOptions" : [
+
+            ],
+            "height" : 15,
+            "heightType" : 0,
+            "id" : "xUd3jEy5k",
+            "isTarget" : true,
+            "left" : 18,
+            "locked" : false,
+            "name" : "sub",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "SuMqn07Ss",
+            "right" : null,
+            "rotation" : 0,
+            "styledText" : {
+              "__class" : "StyledTextDraft",
+              "blocks" : [
+                {
+                  "data" : {
+                    "emptyStyle" : [
+                      "FONT:__SF-UI-Text-Regular__",
+                      "COLOR:rgb(0, 0, 0)",
+                      "LETTERSPACING:0",
+                      "LINEHEIGHT:1.2",
+                      "SIZE:13"
+                    ]
+                  },
+                  "depth" : 0,
+                  "entityRanges" : [
+
+                  ],
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 11,
+                      "offset" : 0,
+                      "style" : "FONT:__SF-UI-Text-Regular__"
+                    },
+                    {
+                      "length" : 11,
+                      "offset" : 0,
+                      "style" : "COLOR:rgb(0, 0, 0)"
+                    },
+                    {
+                      "length" : 11,
+                      "offset" : 0,
+                      "style" : "LETTERSPACING:0"
+                    },
+                    {
+                      "length" : 11,
+                      "offset" : 0,
+                      "style" : "LINEHEIGHT:1.2"
+                    },
+                    {
+                      "length" : 11,
+                      "offset" : 0,
+                      "style" : "SIZE:13"
+                    }
+                  ],
+                  "key" : "cdlvv",
+                  "text" : "How Are you",
+                  "type" : "unstyled"
+                }
+              ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"cdlvv-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cdlvv-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:13px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">How Are you<\/span><\/span><\/div>",
+                "os" : "10_14",
+                "size" : {
+                  "height" : 15,
+                  "width" : 79
+                },
+                "width" : 0
+              },
+              "entityMap" : {
+
+              }
+            },
+            "top" : null,
+            "visible" : true,
+            "width" : 79,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "blendingEnabled" : 0,
+            "blendingMode" : "normal",
+            "bottom" : null,
+            "centerAnchorX" : 0.49450549450549453,
+            "centerAnchorY" : 0.36129032258064514,
+            "children" : [
+
+            ],
+            "clip" : false,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "hsla(307, 55%, 71%, 0.5)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 64,
+            "heightType" : 0,
+            "id" : "CPnTLPxQM",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 18,
+            "locked" : false,
+            "name" : null,
+            "navigationTarget" : null,
+            "navigationTransition" : "push",
+            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+            "navigationTransitionDirection" : "left",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "SuMqn07Ss",
+            "previewSettings" : null,
+            "radius" : 100,
+            "radiusBottomLeft" : 100,
+            "radiusBottomRight" : 100,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 100,
+            "radiusTopRight" : 100,
+            "replicaInfo" : null,
+            "right" : 20,
+            "rotation" : 0,
+            "top" : 24,
+            "visible" : true,
+            "width" : 144,
+            "widthType" : 0
+          }
+        ],
+        "clip" : false,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "hsla(204, 100%, 75%, 0.5)",
+        "fillEnabled" : true,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 155,
+        "heightType" : 0,
+        "id" : "SuMqn07Ss",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : "hidden master",
+        "isMaster" : true,
+        "isTarget" : false,
+        "left" : 454,
+        "locked" : false,
+        "name" : "Card",
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "o9_6L0hoI",
+        "previewSettings" : null,
+        "radius" : 24,
+        "radiusBottomLeft" : 24,
+        "radiusBottomRight" : 24,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 24,
+        "radiusTopRight" : 24,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 197,
+        "visible" : true,
+        "width" : 182,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0.90540540540540537,
+        "centerAnchorY" : 0.26304533789563728,
+        "children" : [
+
+        ],
+        "clip" : false,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "hsla(204, 100%, 75%, 0.5)",
+        "fillEnabled" : true,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 155,
+        "heightType" : 0,
+        "id" : "F55ZQeJti",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 1079,
+        "locked" : false,
+        "name" : "Card",
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : "SuMqn07Ss",
+        "parentid" : "o9_6L0hoI",
+        "previewSettings" : null,
+        "radius" : 24,
+        "radiusBottomLeft" : 24,
+        "radiusBottomRight" : 24,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 24,
+        "radiusTopRight" : 24,
+        "replicaInfo" : {
+          "master" : "SuMqn07Ss",
+          "overrides" : {
+            "CPnTLPxQM" : {
+              "bottom" : null,
+              "centerAnchorX" : 0.7857142857142857,
+              "centerAnchorY" : 0.24193548387096775,
+              "height" : 47,
+              "left" : null,
+              "right" : 14,
+              "top" : 14,
+              "width" : 50
+            },
+            "E2JEr5bPv" : {
+              "bottom" : 25,
+              "centerAnchorX" : 0.16758241758241757,
+              "centerAnchorY" : 0.75483870967741939,
+              "height" : 26,
+              "left" : 18,
+              "styledText" : {
+                "__class" : "StyledTextDraft",
+                "blocks" : [
+                  {
+                    "data" : {
+                      "emptyStyle" : [
+                        "COLOR:rgb(0, 0, 0)",
+                        "LETTERSPACING:0",
+                        "LINEHEIGHT:1.2",
+                        "FONT:__SF-UI-Text-Bold__",
+                        "SIZE:22"
+                      ]
+                    },
+                    "depth" : 0,
+                    "entityRanges" : [
+
+                    ],
+                    "inlineStyleRanges" : [
+                      {
+                        "length" : 2,
+                        "offset" : 0,
+                        "style" : "COLOR:rgb(0, 0, 0)"
+                      },
+                      {
+                        "length" : 2,
+                        "offset" : 0,
+                        "style" : "LETTERSPACING:0"
+                      },
+                      {
+                        "length" : 2,
+                        "offset" : 0,
+                        "style" : "LINEHEIGHT:1.2"
+                      },
+                      {
+                        "length" : 2,
+                        "offset" : 0,
+                        "style" : "FONT:__SF-UI-Text-Bold__"
+                      },
+                      {
+                        "length" : 2,
+                        "offset" : 0,
+                        "style" : "SIZE:22"
+                      }
+                    ],
+                    "key" : "abfid",
+                    "text" : "Hi",
+                    "type" : "unstyled"
+                  }
+                ],
+                "cached" : {
+                  "html" : "<div data-offset-key=\"abfid-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"abfid-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Bold&quot;, &quot;SFProText-Bold&quot;, &quot;SFUIText-Bold&quot;, &quot;.SFUIText-Bold&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:22px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Hi<\/span><\/span><\/div>",
+                  "os" : "10_14",
+                  "size" : {
+                    "height" : 26,
+                    "width" : 25
+                  },
+                  "width" : 0
+                },
+                "entityMap" : {
+
+                }
+              },
+              "width" : 25
+            },
+            "SuMqn07Ss" : {
+              "bottom" : null,
+              "centerAnchorX" : 0.90540540540540537,
+              "centerAnchorY" : 0.26304533789563728,
+              "left" : 1079,
+              "right" : null,
+              "top" : 286,
+              "width" : 171
+            },
+            "xUd3jEy5k" : {
+              "bottom" : null,
+              "centerAnchorX" : 0.78296703296703296,
+              "centerAnchorY" : 0.24193548387096775,
+              "height" : 15,
+              "left" : null,
+              "right" : 26,
+              "styledText" : {
+                "__class" : "StyledTextDraft",
+                "blocks" : [
+                  {
+                    "data" : {
+                      "emptyStyle" : [
+                        "FONT:__SF-UI-Text-Regular__",
+                        "COLOR:rgb(0, 0, 0)",
+                        "LETTERSPACING:0",
+                        "LINEHEIGHT:1.2",
+                        "ALIGN:center",
+                        "SIZE:13"
+                      ]
+                    },
+                    "depth" : 0,
+                    "entityRanges" : [
+
+                    ],
+                    "inlineStyleRanges" : [
+                      {
+                        "length" : 4,
+                        "offset" : 0,
+                        "style" : "FONT:__SF-UI-Text-Regular__"
+                      },
+                      {
+                        "length" : 4,
+                        "offset" : 0,
+                        "style" : "COLOR:rgb(0, 0, 0)"
+                      },
+                      {
+                        "length" : 4,
+                        "offset" : 0,
+                        "style" : "LETTERSPACING:0"
+                      },
+                      {
+                        "length" : 4,
+                        "offset" : 0,
+                        "style" : "LINEHEIGHT:1.2"
+                      },
+                      {
+                        "length" : 4,
+                        "offset" : 0,
+                        "style" : "ALIGN:center"
+                      },
+                      {
+                        "length" : 4,
+                        "offset" : 0,
+                        "style" : "SIZE:13"
+                      }
+                    ],
+                    "key" : "cdlvv",
+                    "text" : "0.01",
+                    "type" : "unstyled"
+                  }
+                ],
+                "cached" : {
+                  "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"cdlvv-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cdlvv-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:13px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">0.01<\/span><\/span><\/div><\/div>",
+                  "os" : "10_14",
+                  "size" : {
+                    "height" : 15,
+                    "width" : 27
+                  },
+                  "width" : 0
+                },
+                "entityMap" : {
+
+                }
+              },
+              "top" : 30,
+              "width" : 27
+            }
+          }
+        },
+        "right" : null,
+        "rotation" : 0,
+        "top" : 286,
+        "visible" : true,
+        "width" : 171,
+        "widthType" : 0
+      }
+    ],
+    "guidesX" : [
+
+    ],
+    "guidesY" : [
+
+    ],
+    "id" : "o9_6L0hoI",
+    "name" : null,
+    "originalid" : null,
+    "parentid" : null,
+    "tokens" : {
+
+    },
+    "tokensIndex" : [
+
+    ],
+    "visible" : false
+  },
+  "version" : 53
+}
