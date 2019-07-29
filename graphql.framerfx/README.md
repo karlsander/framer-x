@@ -1,4 +1,8 @@
+# GraphQL Stack
+
 This component wraps the default Stack component and repeats a connect template design component with data fetched from a GraphQL endpoint.
+
+made by [@kall](http://twitter.com/kall), source on [github](https://github.com/karlsander/framer-x)
 
 # How To Use
 
