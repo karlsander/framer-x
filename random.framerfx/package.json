@@ -11,5 +11,30 @@
 	"framer": {
 		"id": "d2de29d2-9841-4c4d-b0c0-23dc99fe530e"
 	},
-	"author": "Karl Sander"
+	"author": "Karl Sander",
+	"dependencies": {
+		"@framer/benjamin.cells": "^1.3.0",
+		"@framer/benjamin.grid": "^1.10.0",
+		"@framer/benjamin.profile": "^1.13.0",
+		"@framer/benjamin.slider": "^1.9.0",
+		"@framer/benjamin.super-ellipse": "^1.2.0",
+		"@framer/bhaveshchow.credit-card": "^1.0.0",
+		"@framer/djfumberger.mockmatic": "^1.14.0",
+		"@framer/dropbox.desktop-kit": "^1.1.0",
+		"@framer/edoardo.dot-grid": "^1.0.0",
+		"@framer/edoardo.web-ui-kit": "^1.1.0",
+		"@framer/ewidlund.3d-terrain": "^1.2.0",
+		"@framer/framer.examples": "^1.7.0",
+		"@framer/framer.lottie": "^1.1.0",
+		"@framer/gavin-owens.lottie-animations": "^1.2.0",
+		"@framer/gusso.magic-move": "^3.3.0",
+		"@framer/kall.graphql-stack": "^1.1.0",
+		"@framer/mattdesl.motiongrid": "^1.2.0",
+		"@framer/steveruizok.drag-and-drop": "^1.1.0",
+		"@framer/steveruizok.framespy": "^1.2.0",
+		"@framer/steveruizok.hero-patterns": "^1.2.0",
+		"@framer/steveruizok.humaaans": "^1.1.0",
+		"@framer/steveruizok.smarttext": "^1.1.0",
+		"@framer/unsplash.unsplash": "^1.0.0"
+	}
 }
