@@ -61,6 +61,7 @@ If your API needs authorization, you can either put a Bearer token (just the tok
 ## Roadmap
 
 - load query from file
+- fix exporting
 
 ## Changelog
 
