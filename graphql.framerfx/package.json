@@ -19,5 +19,5 @@
 		"use-http": "^0.1.79"
 	},
 	"name": "@framer/kall.graphql-stack",
-	"version": "1.7.0"
+	"version": "1.8.0"
 }
