@@ -14,9 +14,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 0,
-            "centerAnchorX" : 0.21235521235521235,
-            "centerAnchorY" : 0.50556586270871984,
+            "bottom" : 16,
+            "centerAnchorX" : 0.73841698841698844,
+            "centerAnchorY" : 0.50153452685421995,
             "children" : [
 
             ],
@@ -28,9 +28,11 @@
                 {
                   "enabled" : true,
                   "type" : "componentinstance",
-                  "value" : "F55ZQeJti"
+                  "value" : "SuMqn07Ss"
                 }
               ],
+              "customDateFormat" : "dddd, MMMM Do YYYY, h:mm:ss a",
+              "dateFormat" : "Time Ago",
               "direction" : "vertical",
               "distribute" : "start",
               "forceState" : "none",
@@ -42,9 +44,9 @@
               "paddingPerSide" : false,
               "paddingRight" : 40,
               "paddingTop" : 40,
-              "query" : "{   stack: pokemons(first:3) {     title: name     sub: fleeRate   } }",
+              "query" : "{  stack: hotels {     title: name     color {       background: hex     }     photo {       image: url     }     openingDate   } }",
               "radius" : 0,
-              "url" : "https:\/\/graphql-pokemon.now.sh"
+              "url" : "https:\/\/api-euwest.graphcms.com\/v1\/cjyrk3mm403o901fu7n6935n4\/master"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -59,12 +61,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 533,
+            "height" : 1917,
             "heightType" : 0,
             "id" : "rm1EeEXde",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
-            "left" : 0,
+            "left" : null,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -78,11 +80,11 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : null,
+            "right" : 25,
             "rotation" : 0,
-            "top" : 6,
+            "top" : 22,
             "visible" : true,
-            "width" : 220,
+            "width" : 221,
             "widthType" : 0
           }
         ],
@@ -100,7 +102,13 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 539,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "height" : 1955,
         "heightType" : 0,
         "id" : "Z1MFf4Msf",
         "intrinsicHeight" : null,
@@ -140,8 +148,8 @@
         "blendingEnabled" : 0,
         "blendingMode" : "normal",
         "bottom" : null,
-        "centerAnchorX" : 0.19913419913419914,
-        "centerAnchorY" : 0.36805555555555558,
+        "centerAnchorX" : 1.0463320463320462,
+        "centerAnchorY" : 0.31632653061224492,
         "children" : [
           {
             "__class" : "TextNode",
@@ -250,7 +258,7 @@
             "isTarget" : true,
             "left" : 18,
             "locked" : false,
-            "name" : "sub",
+            "name" : "openingDate",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "SuMqn07Ss",
@@ -330,7 +338,7 @@
             "blendingMode" : "normal",
             "bottom" : null,
             "centerAnchorX" : 0.49450549450549453,
-            "centerAnchorY" : 0.36129032258064514,
+            "centerAnchorY" : 0.40239043824701193,
             "children" : [
 
             ],
@@ -343,22 +351,28 @@
             ],
             "fillColor" : "hsla(307, 55%, 71%, 0.5)",
             "fillEnabled" : true,
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
+            "fillImage" : "EBafDLCRMah3G53StbQ32lMpQ.jpg",
+            "fillImagePixelHeight" : 3024,
+            "fillImagePixelWidth" : 4032,
             "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 64,
+            "fillType" : "image",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 154,
             "heightType" : 0,
             "id" : "CPnTLPxQM",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
+            "intrinsicHeight" : 3024,
+            "intrinsicWidth" : 4032,
             "isExternalMaster" : null,
             "isMaster" : false,
-            "isTarget" : false,
+            "isTarget" : true,
             "left" : 18,
             "locked" : false,
-            "name" : null,
+            "name" : "image",
             "navigationTarget" : null,
             "navigationTransition" : "push",
             "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
@@ -367,13 +381,13 @@
             "originalid" : null,
             "parentid" : "SuMqn07Ss",
             "previewSettings" : null,
-            "radius" : 100,
-            "radiusBottomLeft" : 100,
-            "radiusBottomRight" : 100,
+            "radius" : 8,
+            "radiusBottomLeft" : 8,
+            "radiusBottomRight" : 8,
             "radiusIsRelative" : false,
             "radiusPerCorner" : false,
-            "radiusTopLeft" : 100,
-            "radiusTopRight" : 100,
+            "radiusTopLeft" : 8,
+            "radiusTopRight" : 8,
             "replicaInfo" : null,
             "right" : 20,
             "rotation" : 0,
@@ -397,15 +411,21 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 155,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "height" : 251,
         "heightType" : 0,
         "id" : "SuMqn07Ss",
         "intrinsicHeight" : null,
         "intrinsicWidth" : null,
-        "isExternalMaster" : "hidden master",
+        "isExternalMaster" : null,
         "isMaster" : true,
         "isTarget" : false,
-        "left" : 454,
+        "left" : 1101,
         "locked" : false,
         "name" : "Card",
         "navigationTarget" : null,
@@ -426,239 +446,78 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 197,
+        "top" : 139,
         "visible" : true,
         "width" : 182,
         "widthType" : 0
       },
       {
-        "__class" : "FrameNode",
+        "__class" : "CodeComponentNode",
         "aspectRatio" : null,
-        "blendingEnabled" : 0,
-        "blendingMode" : "normal",
         "bottom" : null,
-        "centerAnchorX" : 0.90540540540540537,
-        "centerAnchorY" : 0.26304533789563728,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
         "children" : [
 
         ],
-        "clip" : false,
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/DataStack.tsx_DataStack",
+        "codeComponentProps" : {
+          "alignment" : "center",
+          "customDateFormat" : "dddd, MMMM Do YYYY, h:mm:ss a",
+          "dateFormat" : "Time Ago",
+          "direction" : "vertical",
+          "distribute" : "start",
+          "forceState" : "none",
+          "gap" : 10,
+          "overflow" : "hidden",
+          "padding" : 0,
+          "paddingBottom" : 0,
+          "paddingLeft" : 0,
+          "paddingPerSide" : false,
+          "paddingRight" : 0,
+          "paddingTop" : 0,
+          "query" : "\n{\n  stack: hotels {\n    name\n    color {\n      backgroundColor: hex\n    }\n    photo {\n      hotelImag: url\n    }\n    openingDate\n  }\n}",
+          "radius" : 0,
+          "url" : "https:\/\/api-euwest.graphcms.com\/v1\/cjyrk3mm403o901fu7n6935n4\/master"
+        },
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
         "deviceType" : null,
         "exportOptions" : [
 
         ],
-        "fillColor" : "hsla(204, 100%, 75%, 0.5)",
-        "fillEnabled" : true,
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
         "fillImage" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 155,
+        "height" : 812,
         "heightType" : 0,
-        "id" : "F55ZQeJti",
-        "intrinsicHeight" : null,
-        "intrinsicWidth" : null,
-        "isExternalMaster" : null,
-        "isMaster" : false,
-        "isTarget" : false,
-        "left" : 1079,
+        "id" : "WdkIGwEWs",
+        "intrinsicHeight" : 320,
+        "intrinsicWidth" : 375,
+        "left" : 1124,
         "locked" : false,
-        "name" : "Card",
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
+        "name" : null,
         "opacity" : 1,
-        "originalid" : "SuMqn07Ss",
+        "originalid" : null,
         "parentid" : "o9_6L0hoI",
         "previewSettings" : null,
-        "radius" : 24,
-        "radiusBottomLeft" : 24,
-        "radiusBottomRight" : 24,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
         "radiusIsRelative" : false,
         "radiusPerCorner" : false,
-        "radiusTopLeft" : 24,
-        "radiusTopRight" : 24,
-        "replicaInfo" : {
-          "master" : "SuMqn07Ss",
-          "overrides" : {
-            "CPnTLPxQM" : {
-              "bottom" : null,
-              "centerAnchorX" : 0.7857142857142857,
-              "centerAnchorY" : 0.24193548387096775,
-              "height" : 47,
-              "left" : null,
-              "right" : 14,
-              "top" : 14,
-              "width" : 50
-            },
-            "E2JEr5bPv" : {
-              "bottom" : 25,
-              "centerAnchorX" : 0.16758241758241757,
-              "centerAnchorY" : 0.75483870967741939,
-              "height" : 26,
-              "left" : 18,
-              "styledText" : {
-                "__class" : "StyledTextDraft",
-                "blocks" : [
-                  {
-                    "data" : {
-                      "emptyStyle" : [
-                        "COLOR:rgb(0, 0, 0)",
-                        "LETTERSPACING:0",
-                        "LINEHEIGHT:1.2",
-                        "FONT:__SF-UI-Text-Bold__",
-                        "SIZE:22"
-                      ]
-                    },
-                    "depth" : 0,
-                    "entityRanges" : [
-
-                    ],
-                    "inlineStyleRanges" : [
-                      {
-                        "length" : 2,
-                        "offset" : 0,
-                        "style" : "COLOR:rgb(0, 0, 0)"
-                      },
-                      {
-                        "length" : 2,
-                        "offset" : 0,
-                        "style" : "LETTERSPACING:0"
-                      },
-                      {
-                        "length" : 2,
-                        "offset" : 0,
-                        "style" : "LINEHEIGHT:1.2"
-                      },
-                      {
-                        "length" : 2,
-                        "offset" : 0,
-                        "style" : "FONT:__SF-UI-Text-Bold__"
-                      },
-                      {
-                        "length" : 2,
-                        "offset" : 0,
-                        "style" : "SIZE:22"
-                      }
-                    ],
-                    "key" : "abfid",
-                    "text" : "Hi",
-                    "type" : "unstyled"
-                  }
-                ],
-                "cached" : {
-                  "html" : "<div data-offset-key=\"abfid-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"abfid-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Bold&quot;, &quot;SFProText-Bold&quot;, &quot;SFUIText-Bold&quot;, &quot;.SFUIText-Bold&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:22px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Hi<\/span><\/span><\/div>",
-                  "os" : "10_14",
-                  "size" : {
-                    "height" : 26,
-                    "width" : 25
-                  },
-                  "width" : 0
-                },
-                "entityMap" : {
-
-                }
-              },
-              "width" : 25
-            },
-            "SuMqn07Ss" : {
-              "bottom" : null,
-              "centerAnchorX" : 0.90540540540540537,
-              "centerAnchorY" : 0.26304533789563728,
-              "left" : 1079,
-              "right" : null,
-              "top" : 286,
-              "width" : 171
-            },
-            "xUd3jEy5k" : {
-              "bottom" : null,
-              "centerAnchorX" : 0.78296703296703296,
-              "centerAnchorY" : 0.24193548387096775,
-              "height" : 15,
-              "left" : null,
-              "right" : 26,
-              "styledText" : {
-                "__class" : "StyledTextDraft",
-                "blocks" : [
-                  {
-                    "data" : {
-                      "emptyStyle" : [
-                        "FONT:__SF-UI-Text-Regular__",
-                        "COLOR:rgb(0, 0, 0)",
-                        "LETTERSPACING:0",
-                        "LINEHEIGHT:1.2",
-                        "ALIGN:center",
-                        "SIZE:13"
-                      ]
-                    },
-                    "depth" : 0,
-                    "entityRanges" : [
-
-                    ],
-                    "inlineStyleRanges" : [
-                      {
-                        "length" : 4,
-                        "offset" : 0,
-                        "style" : "FONT:__SF-UI-Text-Regular__"
-                      },
-                      {
-                        "length" : 4,
-                        "offset" : 0,
-                        "style" : "COLOR:rgb(0, 0, 0)"
-                      },
-                      {
-                        "length" : 4,
-                        "offset" : 0,
-                        "style" : "LETTERSPACING:0"
-                      },
-                      {
-                        "length" : 4,
-                        "offset" : 0,
-                        "style" : "LINEHEIGHT:1.2"
-                      },
-                      {
-                        "length" : 4,
-                        "offset" : 0,
-                        "style" : "ALIGN:center"
-                      },
-                      {
-                        "length" : 4,
-                        "offset" : 0,
-                        "style" : "SIZE:13"
-                      }
-                    ],
-                    "key" : "cdlvv",
-                    "text" : "0.01",
-                    "type" : "unstyled"
-                  }
-                ],
-                "cached" : {
-                  "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"cdlvv-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"cdlvv-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText&quot;, &quot;SFProText-Regular&quot;, &quot;SFUIText-Regular&quot;, &quot;.SFUIText&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:13px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">0.01<\/span><\/span><\/div><\/div>",
-                  "os" : "10_14",
-                  "size" : {
-                    "height" : 15,
-                    "width" : 27
-                  },
-                  "width" : 0
-                },
-                "entityMap" : {
-
-                }
-              },
-              "top" : 30,
-              "width" : 27
-            }
-          }
-        },
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : 286,
+        "top" : 473,
         "visible" : true,
-        "width" : 171,
+        "width" : 375,
         "widthType" : 0
       }
     ],
@@ -680,5 +539,5 @@
     ],
     "visible" : false
   },
-  "version" : 53
+  "version" : 54
 }
