@@ -14,9 +14,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 58,
-            "centerAnchorX" : 0.28875000000000001,
-            "centerAnchorY" : 0.5,
+            "bottom" : 64,
+            "centerAnchorX" : 0.52391304347826084,
+            "centerAnchorY" : 0.49527559055118109,
             "children" : [
 
             ],
@@ -61,7 +61,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 484,
+            "height" : 1154,
             "heightType" : 0,
             "id" : "rm1EeEXde",
             "intrinsicHeight" : null,
@@ -80,18 +80,18 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : null,
+            "right" : 16,
             "rotation" : 0,
-            "top" : 58,
+            "top" : 52,
             "visible" : true,
-            "width" : 386,
+            "width" : 406,
             "widthType" : 0
           }
         ],
         "clip" : true,
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
-        "deviceType" : "framer\/FramerStoreArtwork",
+        "deviceType" : null,
         "exportOptions" : [
           {
             "__class" : "ExportOptions",
@@ -115,7 +115,7 @@
         "guidesY" : [
 
         ],
-        "height" : 600,
+        "height" : 1270,
         "heightType" : 0,
         "id" : "Z1MFf4Msf",
         "intrinsicHeight" : null,
@@ -123,7 +123,7 @@
         "isExternalMaster" : null,
         "isMaster" : false,
         "isTarget" : false,
-        "left" : 547,
+        "left" : 540,
         "locked" : false,
         "name" : null,
         "navigationTarget" : null,
@@ -146,7 +146,7 @@
         "rotation" : 0,
         "top" : 377,
         "visible" : true,
-        "width" : 800,
+        "width" : 460,
         "widthType" : 0
       },
       {
@@ -167,8 +167,8 @@
             "y" : 2
           }
         ],
-        "centerAnchorX" : 1.0463320463320462,
-        "centerAnchorY" : 0.31632653061224492,
+        "centerAnchorX" : 1.1225000000000001,
+        "centerAnchorY" : 0.54333333333333333,
         "children" : [
           {
             "__class" : "FrameNode",
@@ -508,7 +508,7 @@
         "isExternalMaster" : null,
         "isMaster" : true,
         "isTarget" : false,
-        "left" : 1017,
+        "left" : 1071,
         "locked" : false,
         "name" : "Card",
         "navigationTarget" : null,
@@ -529,7 +529,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 609,
+        "top" : 600,
         "visible" : true,
         "width" : 278,
         "widthType" : 0
