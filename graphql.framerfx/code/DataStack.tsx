@@ -1,6 +1,12 @@
 import * as React from "react"
 import { useEffect, useMemo } from "react"
-import { addPropertyControls, ControlType, Stack, RenderTarget } from "framer"
+import {
+    Frame,
+    addPropertyControls,
+    ControlType,
+    Stack,
+    RenderTarget,
+} from "framer"
 import useFetch from "use-http"
 import deepIterator from "deep-iterator"
 
@@ -55,7 +61,7 @@ const GraphQLLogo = props => (
     </svg>
 )
 
-export function DataStack({
+export function DataStackB({
     query: queryString,
     children,
     direction,
@@ -78,6 +84,7 @@ export function DataStack({
     forceState,
 }) {
     const { data, loading, error, query } = useFetch(url)
+
     useEffect(() => {
         query(queryString)
     }, [queryString])
@@ -87,13 +94,15 @@ export function DataStack({
     const { stack, stackProps } = useMemo(() => {
         let stack
         let stackProps = []
+
         for (let { key, value } of deepIterator(data)) {
             if (key === "stack") {
                 stack = value
             }
         }
+
         if (stack) {
-            stack.map(item => {
+            stack.forEach(item => {
                 let propObject = {}
                 for (let { key, value, type } of deepIterator(item)) {
                     if (key) {
@@ -116,6 +125,7 @@ export function DataStack({
                 stackProps.push(propObject)
             })
         }
+
         return { stack, stackProps }
     }, [data])
 
@@ -139,7 +149,16 @@ export function DataStack({
                     height,
                 }}
             >
-                {stackProps.map(item => React.cloneElement(Component, item))}
+                {stackProps.map(item =>
+                    Component ? (
+                        React.cloneElement(Component, {
+                            ...item,
+                            width: "100%",
+                        })
+                    ) : (
+                        <DefaultComponent {...item} />
+                    )
+                )}
             </Stack>
         )
     } else if (RenderTarget.current() === RenderTarget.thumbnail) {
@@ -147,15 +166,72 @@ export function DataStack({
     } else if (data && !stack) {
         return "No 'stack' data found. You need to rename a part of the result (eg: 'stack: allAlbums')"
     } else if (loading || forceState === "loading") {
-        return LoadingComponent[0] || "loading"
-    } else if (error || forceState === "error") {
-        return ErrorComponent[0] || "Error"
+        return LoadingComponent[0] || <div>loading</div>
+    } else if (error || forceState === <div>error</div>) {
+        return ErrorComponent[0] || <div>error</div>
     } else {
-        return ErrorComponent[0] || "I have no idea what's going on."
+        return ErrorComponent[0] || <div>I have no idea what's going on.</div>
     }
 }
 
-addPropertyControls(DataStack, {
+const DefaultComponent = (props = {}) => {
+    return (
+        <Stack
+            style={{ fontSize: 16, fontWeight: 600, color: "#333333" }}
+            width="100%"
+            alignment="center"
+            distribution="center"
+            background="#FFFFFF"
+        >
+            {Object.keys(props).map(k => (
+                <p>
+                    {k}: {props[k]}
+                </p>
+            ))}
+        </Stack>
+    )
+}
+
+DataStackB.defaultProps = {
+    height: 320,
+    width: 375,
+    radius: 0,
+    forceState: "none",
+    url: "https://graphql-pokemon.now.sh",
+    query: `
+{
+  pokemon(name: "Pikachu") {
+    id
+    number
+    name
+    attacks {
+      stack: special {
+        name
+        type
+        damage
+      }
+    }
+    evolutions {
+      id
+      number
+      name
+      weight {
+        minimum
+        maximum
+      }
+      attacks {
+        fast {
+          name
+          type
+          damage
+        }
+      }
+    }
+  }
+}`,
+}
+
+addPropertyControls(DataStackB, {
     radius: {
         type: ControlType.Number,
         title: "Radius",
@@ -231,7 +307,7 @@ addPropertyControls(DataStack, {
     },
     query: {
         type: ControlType.String,
-        defaultValue: "{}",
+        defaultValue: `{   pokemon(name: "Pikachu") {     id     number     name     attacks {       stack: special {         name         type         damage       }     }     evolutions {       id       number       name       weight {         minimum         maximum       }       attacks {         fast {           name           type           damage         }       }     }   } }`,
         placeholder: "GraphQL Query",
         title: "GraphQL",
     },
